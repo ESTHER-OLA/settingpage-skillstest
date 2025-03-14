@@ -31,7 +31,7 @@ import {
   SidebarProvider,
 } from "@/components/ui/sidebar";
 
-// Menu items.
+// Menu items for sidebar.
 const items = [
   {
     title: "Home",
