@@ -82,7 +82,7 @@ export function AppSidebar() {
   const [isLogoutDropdownOpen, setIsLogoutDropdownOpen] = useState(false);
 
   return (
-    <SidebarProvider>
+    <>
       {/* Mobile Header */}
       <div className="lg:hidden flex items-center justify-between p-4 bg-white shadow-md">
         <div className="flex items-center gap-3">
@@ -324,6 +324,6 @@ export function AppSidebar() {
           </Sidebar>
         </div>
       )}
-    </SidebarProvider>
+    </>
   );
 }
